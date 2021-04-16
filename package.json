@@ -1,0 +1,14 @@
+{
+  "name": "com.sarteck.protected_variables",
+  "version": "0.0.1",
+  "displayName": "Protected Variables",
+  "dependencies": {
+  },
+  "keywords": [],
+  "author": {
+    "name": "Sarteck",
+    "email": "sarteckcompany@gmail.com",
+    "url": "https://github.com/styrbo/Protected-Variables-Unity"
+  },
+  "type": "library"
+}
