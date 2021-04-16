@@ -1,0 +1,17 @@
+{
+    "name": "Sarteck.ProtectedVariables.Tests",
+    "references": [
+        "GUID:1c345811d500bae449d5bc9cc0014fe2"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
