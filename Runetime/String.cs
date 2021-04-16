@@ -16,7 +16,7 @@ namespace Sarteck.ProtectedVariables
 
                 for (var i = 0; i < charArray.Length; i++)
                 {
-                    charArray[i] = (char)(value[i] >> _offset);
+                    charArray[i] = (char)(value[i] + _offset);
                 }
                 
                 _value = new string(charArray);
@@ -33,7 +33,7 @@ namespace Sarteck.ProtectedVariables
 
                     for (var i = 0; i < charArray.Length; i++)
                     {
-                        charArray[i] = (char)(_value[i] << _offset);
+                        charArray[i] = (char)(_value[i] - _offset);
                     }
                 
                     return new string(charArray);
