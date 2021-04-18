@@ -10,7 +10,7 @@ namespace Sarteck.ProtectedVariables
         {
             public FloatProtected(float value = 0)
             {
-                _offset = (byte)Random.Range(0, 255);
+                _offset = (byte)Random.Range(1, 255);
                 _value = value * _offset;
             }
         

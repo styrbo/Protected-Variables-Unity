@@ -13,13 +13,13 @@ namespace Sarteck.ProtectedVariables
                 public LongProtected(long value = 0)
                 {
                     _offset = (byte)Random.Range(0, 255);
-                    _value = value + _offset;
+                    _value = value ^ _offset;
                 }
         
                 private long _value;
                 private byte _offset;
 
-                public long Value => _value - _offset;
+                public long Value => _value ^ _offset;
 
                 public override string ToString()
                 {

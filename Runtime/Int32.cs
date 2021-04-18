@@ -8,14 +8,14 @@ namespace Sarteck.ProtectedVariables
     {
         public IntProtected(int value = 0)
         {
-            _salt = (byte)Random.Range(0, 255);
-            _offset = value + _salt;
+            _offset = (byte)Random.Range(0, 255);
+            _value = value ^ _offset;
         }
-        
-        private int _offset;
-        private byte _salt;
 
-        public int Value => _offset - _salt;
+        private int _value;
+        private byte _offset;
+
+        public int Value => _value ^ _offset;
 
         public override string ToString()
         {
