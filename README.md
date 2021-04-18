@@ -5,7 +5,7 @@ ____
 # Setup tutorial
 
 
-[![open package manager](https://github.com/styrbo/Protected-Variables-Unity/blob/update-md/Editor/Tutorial/step%201.PNG)]
+[![open package manager](https://github.com/styrbo/Protected-Variables-Unity/blob/master/Editor/Tutorial/step%201.PNG)]
 
 paste url
-[![paste repo url](https://github.com/styrbo/Protected-Variables-Unity/blob/update-md/Editor/Tutorial/step%202.PNG)]
+[![paste repo url](https://github.com/styrbo/Protected-Variables-Unity/blob/master/Editor/Tutorial/step%202.PNG)]
